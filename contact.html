@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact information about Prychar Kitchen"
+    />
+    <title>Prychark Kitchen</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <header class="header-title-line">
+      <h1 class="h1-heading">PryChark Kitchen</h1>
+    </header>
+
+    <nav class="header-nav">
+      <ul class="header-ul">
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li>
+          <a href="/menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="/contact.html"> <span class="nowrap"> Contact Us</span></a>
+        </li>
+        <li>
+          <a href="/about.html">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <figure>
+      <img
+        class="image"
+        src="img/Efo.jpg"
+        alt="Nigeria Dishes"
+        height="4000"
+        width="6000"
+      />
+      <link rel="stylesheet" href="main.css" />
+    </figure>
+
+    <main class="main">
+      <article class="main-article">
+        <h2 class="h-heading">Our Contact Form</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset class="field">
+            <legend class="field_legend">Send Us A Message</legend>
+            <p class="field_p">
+              <label class="contact_label" for="name">Name:</label>
+              <input
+                class="contact_input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="full name"
+                required
+              />
+            </p>
+            <p class="field_p">
+              <label class="contact_label" for="email">Email:</label>
+              <input
+                class="contact_input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="abc@gmail.com"
+                required
+              />
+            </p>
+            <p>
+              <label class="contact_label" for="message">Your Message:</label>
+              <textarea
+                class="contact_text"
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your message"
+              ></textarea>
+            </p>
+          </fieldset>
+
+          <div class="button1">
+            <button class="button2" type="submit">Send</button>
+            <button class="button2" type="reset">Reset</button>
+          </div>
+        </form>
+      </article>
+
+      <article class="main1">
+        <h2 class="h-heading">Our Location</h2>
+        <address class="nunito">
+          No 47, arubiewe, Olodo, Ibadan.<br />
+          Block 12, Lagos Main-highland Lagos<br /><br />
+          Phone:
+          <a class="paragraph1" href="tel:+2348138318997">Our phone number</a>
+        </address>
+      </article>
+
+      <p class="paragraph">
+        <a class="paragraph1" href="#">Back to the Top</a>
+      </p>
+    </main>
+
+    <footer class="footer_p">
+      <p class="copyright">&nbsp;&nbsp; Copyright &copy; Prychark Kitchen</p>
+    </footer>
+  </body>
+</html>
