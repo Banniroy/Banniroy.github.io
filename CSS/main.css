@@ -338,7 +338,7 @@ tbody tr{
 footer{
     text-align: center;
     Justify-content: center;
-    position: sticky; 
+    position: fixed; 
     bottom: 0;
     width:800px;
     background-color: #333;
