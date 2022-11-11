@@ -327,7 +327,7 @@ tbody tr{
 
 .paragraph{
     margin: 1rem 0 0 0;
-    min-height: calc(100vh - 35rem);
+    min-height: calc(100vh - 30rem);
 }
 
 .paragraph:hover{
