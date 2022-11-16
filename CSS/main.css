@@ -57,14 +57,11 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: var(--BACKGROUND-HTML);
-    background-image: var(--BACKGROUND-IMG);
+    background-color: var(--WHITESMOKE);
 }
 
 body{
-    max-width: 800px;
     background-color: var(--BGROUND-COLOR);
-    margin: 0 auto;
     border-left: var(--BORDER-COLOR);
     border-right: var(--BORDER-COLOR);
 }
@@ -327,7 +324,8 @@ tbody tr{
 /* BUTTON STYLING  */
 
 .paragraph{
-    margin: 1rem 0 2.5rem 0;
+    padding-top: 1rem;
+    padding-bottom: calc(30vh - 83px);
 }
 
 .paragraph:hover{
@@ -339,7 +337,7 @@ tbody tr{
 
 footer{
     text-align: center;
-    position: sticky; 
+    position: fixed; 
     bottom: 0;
     width: 100%;
     background-color: #333;
@@ -349,3 +347,41 @@ footer{
     font-family: var(--NUNITO);
     font-size: var(--FONT-SIZE);
 } 
+
+@media screen and (min-width: 730px) {
+    html{
+      max-width: 680px;
+      margin: auto;
+      background-color: var(--BACKGROUND-HTML);
+      background-image: var(--BACKGROUND-IMG);
+    }
+    
+    .paragraph{
+        padding-top: 1rem;
+        padding-bottom: calc(20vh - 83px);
+    }
+
+    footer{
+        max-width: 680px;
+    }
+
+}
+
+@media screen and (min-width: 979px) {
+    html{
+      max-width: 800px;
+      margin: auto;
+    }
+    
+    .paragraph{
+        padding-top: 1rem;
+        padding-bottom: calc(20vh - 83px);
+    }
+
+    footer{
+        max-width: 800px;
+    }
+
+}
+
+
